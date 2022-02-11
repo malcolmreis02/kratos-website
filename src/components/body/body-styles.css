@@ -1,0 +1,39 @@
+.container-body{
+    background-color: #f2f3f4;
+    background-size: contain;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 40px 0;
+    margin-left: 10px;
+}
+
+.title h3{
+    color: #660000;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.box-1 h3{
+    color: #660000;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0 0 15px 0
+}
+
+.box-1 p{
+    font-size: 20px;
+    color: #1b1b1b
+}

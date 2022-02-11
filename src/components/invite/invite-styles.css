@@ -1,0 +1,43 @@
+.last-box{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/2.jpg');
+    background-position: top;
+    background-size: cover;
+    /*para o backgroun fica rno centro e cobrir toda a sua parte da tela*/
+    min-height: 500px;
+    /*o minimo de altura que o main pode ter, sendo possivel o aumento deste*/
+}
+
+.box{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title h2{
+    text-transform: uppercase;
+    font-size: 400%;
+    color: #f2f3f4;
+}
+
+.call h2{
+    text-transform: uppercase;
+    font-size: 180%;
+    color: #f2f3f4;
+}
+
+.form {
+    margin-top: 8%;
+}
+
+.form h5{
+    color: #f2f3f4;
+}
+
+.submit{
+    margin-top: 4%;
+}

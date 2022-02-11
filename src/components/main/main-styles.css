@@ -1,0 +1,57 @@
+.center{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2%;
+    /*para os elementos poderem ficar na mesma linha ou coluna*/
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main{
+    padding: 40px 0;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/1.jpg');
+    background-position: top;
+    background-size: cover;
+    /*para o backgroun fica rno centro e cobrir toda a sua parte da tela*/
+    min-height: 400px;
+    /*o minimo de altura que o main pode ter, sendo possivel o aumento deste*/
+  }
+  .menu h3{
+    color: #a9a9a9;
+    font-size: 40px;
+    font-family: fantasy;
+  }
+  
+  
+  .menu{
+    display: flex;
+    flex-direction: row;
+    /*para os elementos do menu ficarem na mesma linha*/
+    width: 100%;
+    justify-content: space-between;
+    /*para eles ficarem espelhado de forma igualmente espaçadas*/
+  }
+  
+  .big-name{
+    display: flex;
+    width: 100%;
+    max-width: 525px;
+    margin-top: 10%;
+    margin-left: 41.3%;
+
+  }
+  
+  .big-name h2{
+    color: #a9a9a9;
+    font-size: 40px;
+    font-family: fantasy;
+  }
+  
+  .menu a{
+    color: #a9a9a9;
+    text-decoration: none;
+    border: 1px solid #a9a9a9;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
