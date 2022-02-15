@@ -22,3 +22,5 @@ Portanto, pode-se afirmar que esse site corresponde à largada da minha carreira
     <li>Comunicação com API: inserção de dados no banco de dados</li>
     <li>Possível adaptação para um site de vendas</li>
 </ul>
+
+<p>link para acessar o site: https://malcolmreis02.github.io/kratos/</p>
